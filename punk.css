@@ -10,11 +10,11 @@ body{
 
 
 
-h1{
+h2{
     margin: 0px;
 }
 
-h2{
+h4{
     margin: 0px;
 }
 
@@ -26,7 +26,7 @@ p{
     background: white;
     width: 600px;
     color: white;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 8px 8px 8px 8px;
     box-shadow: 1px 1px 20px 1px rgb(197, 195, 195);
 }
 
@@ -36,16 +36,16 @@ p{
     position: relative ;
     background: white;
     padding: 24px;
-    line-height: 32px;
+    line-height: 30px;
     border-radius: 8px 8px 0px 0px;
 }
-.first h1{
-    color: hsl(179, 62%, 43%);
-    margin-bottom: 10px;
-}
 .first h2{
+    color: hsl(179, 62%, 43%);
+}
+.first h4{
     color: hsl(71, 73%, 54%);
-    margin-bottom: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 .first p{
     color: hsl(218, 22%, 67%);
@@ -64,31 +64,36 @@ p{
     position: relative;
     width: 50%;
     background: hsl(179, 62%, 43%);
-    color: hsl(204, 43%, 93%);
+    color: hsl(210, 100%, 100%);
     border-radius: 0px 0px 0px 8px;
 }
-.second h2{
+.second h4{
     margin-bottom: 15px;
+    color: rgb(235, 247, 235);
 }
 .un{
-    font-size: 42px
+    font-size: 37px;
+    color: white;
 }
 .two{
     color: rgb(206, 206, 206);
 }
 .second p{
     margin-top: 8px;
-    color: honeydew;
+    color: rgb(229, 243, 229);
 }
 .second button{
     width: 100%;
     margin-top: 15px;
     background: hsl(71, 73%, 54%);
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 4px;
     border: none;
     padding: 8px;
+    box-shadow: 1px 1px 4px 0.5px hsl(0, 0%, 53%);
+    font-weight: 700;
+    padding: 13px;
 }
 
 
@@ -97,10 +102,10 @@ p{
     position: relative;
     width: 50%;
     background: hsla(179, 72%, 45%, 0.781);
-    color: hsl(204, 43%, 93%);
+    color: hsl(210, 100%, 100%);
     border-radius: 0px 0px 8px 0px;
 }
-.third h2{
+.third h4{
     margin-bottom: 16px;
 }
 ul{
@@ -108,6 +113,7 @@ ul{
     padding: 0px;
 }
 li{
+    color: hsla(203, 44%, 93%, 0.774);
     list-style: none;
     margin: 0px;
     padding: 0px;
