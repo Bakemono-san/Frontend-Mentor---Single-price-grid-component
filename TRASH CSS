@@ -1,0 +1,210 @@
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background: hsl(204, 43%, 93%);
+}
+.card{
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    margin-top: 8%;
+    border-radius: 4px;
+}
+/*    first blog */ 
+.premier{
+    max-height: 300px;
+    background: white;
+    height: 60%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    border-radius: 4px;
+    text-align: justify;
+    box-shadow: 1px -1px 1px rgb(235, 219, 219);
+}
+h1{position: relative;
+    top: 2.5%;
+    color: hsl(179, 62%, 43%);
+}
+.premier h2{
+    color:  hsl(71, 73%, 54%);
+    position: relative;
+    top: 2%;
+    width: auto;
+}
+.premier p{
+    color:  hsl(218, 22%, 67%);
+    position: relative;
+    top: 0.3%;
+    width: auto;
+    line-height: 140%;
+    font-size: 80%;
+}
+/* contient les deux blog */
+.contain{
+    display: flex;
+    margin: 0px;
+    position: relative;
+    top: -20px;
+    height: 90%;
+    box-shadow: 2px 2px 2px rgb(151, 147, 147);
+}
+/* duexieme blog*/
+.deux{
+    height: 288.2px;
+    background: hsl(179, 62%, 43%);
+    color: white;
+    border-radius: 4px 0px 0px 4px;
+    width: 50%;
+    font-family: 'Karla', sans-serif;
+    line-height: 29.99999px;
+    font-size: 84%;
+    position: relative;
+}
+.deux .un{
+    font-size: 59px;
+    margin-bottom: 80px;
+    margin-left: 9%;
+}
+.deux .two{
+    color: hsl(219, 21%, 82%);
+    margin-left: 2%;
+}
+.deux button{
+   
+    height: 60px;
+    width: 80%;
+    background: hsl(71, 73%, 54%);
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 6px;
+    border-color: hsl(71, 73%, 54%);
+    box-shadow: 0.3px 0.3px 0.3px 0.3px 90% rgb(172, 172, 172);
+}
+.deux h2{
+    margin-left: 9%;
+}
+.deux p{
+    margin-left: 9%;
+    color: hsl(210, 30%, 96%);
+}
+/* troisieme blog */
+.trois{
+    width: 50%;
+    height: 30%;
+    color: white;
+    background: hsla(179, 72%, 45%, 0.781);
+    border-radius: 0px 4px 4px 0px;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    font-size: 80%;
+}
+.trois h2{
+    margin-left: 9%;
+}
+.third{
+    margin-left: 9%;
+    font-size: auto;
+    line-height: 27px;
+    color: hsl(213, 41%, 95%);
+}
+
+button{
+    text-align: center;
+}
+/* FINNNNNNNNNNNNNN */
+
+/* SI LA FENETRE INF A 800PX  */
+@media screen and (max-width: 500px) {
+    body{
+        max-width: 375px;
+        display: block;
+        width: 100%;
+        font-size: 12px;
+    }
+    .card{
+        width: 90%;
+        height: 550px;
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+    /*  container des blog */
+    .contain{
+        display: block;
+        margin: 0px;
+        height: 380px;
+        box-shadow: 0px 0px 2px rgb(151, 147, 147);
+        border-radius: 4px;
+    }
+    /* seconde blog */
+    .deux{
+        width: 100%;
+        height: 200px;
+        margin: 0px;
+        font-size: 8px;
+        border-radius: 0px;
+        position: relative;
+        top: -21px;
+        line-height: 29px;
+    }
+    .deux h1{
+        position: relative;
+        top: 12px;
+        margin-bottom: 5px;
+    }
+    .deux p{
+        margin-bottom: 10px;
+    }
+    .deux button{
+        text-align: center;
+        width: 80%;
+        height: 40px;
+        font-size: 8px;
+        margin-left: 8%;
+    }
+    .deux .un{
+        margin-bottom: 14px;
+        font-size: 24px;
+    }
+    /* blog 3 */
+    .trois h2{
+        position: relative;
+        top: 16px;
+    }
+    .trois p{
+        position: relative;
+        top: 20px;
+        line-height: 19px;
+        color: hsl(218, 14%, 89%);
+    }
+    .trois{
+        width: 100%;
+        height: 200px;
+        margin: 0px;
+        position: relative;
+        top: -33px;
+        font-size: 8px;
+        border-radius: 4px;
+        line-height: 0px;
+    }
+    /* first */
+    .premier p{
+        font-size: 8px;
+        line-height: 24px;
+        margin-top: 24px;
+    }
+    .premier h2{
+        margin-bottom: 20px;
+    }
+    h1{
+        position: relative;
+        top: 10px;
+    }
+    .premier{
+        font-size: 8px;
+        height: 170px;
+    }
+}

@@ -1,0 +1,37 @@
+<div class="card">
+  <!--  premiere partie HAUT -->
+    
+    <h1>Join our community</h1>
+
+    <h2> 30-day, hassle-free money back guarantee</h2>
+
+    <p class="first">Gain access to our full library of tutorials along with expert code reviews. <br>
+    Perfect for any developers who are serious about honing their skills.
+    </p>
+    </div>
+    <div class="contain">
+  <!--  deuxieme partie BAS -->
+    <div class="deux">
+    <h2>Monthly Subscription</h2>
+
+    <span class="un">$29 </span><span class="two">per month</span> <br>
+
+    <p> Full access for less than &dollar;1 a day <br>
+    </p>
+      <button>Sign Up</button>
+    </div>
+  <!--   troisieme partie BAS-DROITE  -->
+    <div class="trois">
+      <h2>Why Us</h2>
+    <p class="third">
+      Tutorials by industry experts <br>
+      Peer &amp; expert code review <br>
+      Coding exercises <br>
+      Access to our GitHub repos <br>
+      Community forum <br>
+      Flashcard decks <br> 
+      New videos every week
+    </p>
+    </div>
+  </div>
+</div>

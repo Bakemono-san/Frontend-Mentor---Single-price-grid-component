@@ -1,0 +1,146 @@
+body{
+    background: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'karla',sans-serif;
+}
+
+
+
+h1{
+    margin: 0px;
+}
+
+h2{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    color: hsl(218, 22%, 67%);
+}
+.container{
+    background: white;
+    width: 600px;
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 20px 1px rgb(197, 195, 195);
+}
+
+
+
+.first{
+    position: relative ;
+    background: white;
+    padding: 24px;
+    line-height: 32px;
+    border-radius: 8px 8px 0px 0px;
+}
+.first h1{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 10px;
+}
+.first h2{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 12px;
+}
+.first p{
+    color: hsl(218, 22%, 67%);
+    padding: 0px;
+}
+
+.cont2{
+    display: flex;
+    border-radius: 0px 0px 8px 8px;
+    
+}
+
+
+.second{
+    padding: 24px;
+    position: relative;
+    width: 50%;
+    background: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    border-radius: 0px 0px 0px 8px;
+}
+.second h2{
+    margin-bottom: 15px;
+}
+.un{
+    font-size: 42px
+}
+.two{
+    color: rgb(206, 206, 206);
+}
+.second p{
+    margin-top: 8px;
+    color: honeydew;
+}
+.second button{
+    width: 100%;
+    margin-top: 15px;
+    background: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+}
+
+
+.third{
+    padding: 24px;
+    position: relative;
+    width: 50%;
+    background: hsla(179, 72%, 45%, 0.781);
+    color: hsl(204, 43%, 93%);
+    border-radius: 0px 0px 8px 0px;
+}
+.third h2{
+    margin-bottom: 16px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media screen and (max-width:490px){
+    body{
+    background: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'karla',sans-serif;
+    }
+    .container{
+        margin: 35px 15px;
+        display: block;
+        font-size: 10px;
+        border: 1px rgb(184, 180, 180) solid;
+    }
+    .cont2{
+        display: block;
+    }
+    .second{
+        position: relative;
+        width: 89.5%; 
+        border-radius: 0px 0px 0px 0px;
+    }
+    .third{
+        position: relative;
+        width: 89.5%;
+        border-radius: 0px 0px 8px 8px;
+    }
+}
